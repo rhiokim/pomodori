@@ -1,0 +1,20 @@
+#!/usr/bin/env node 
+
+var say = require(__dirname +'/../lib/say');
+var timer = require(__dirname +'/../lib/timer');
+var sound = require(__dirname +'/../lib/sound');
+
+say.speak('start');
+
+timer.on('sec', function(res) {
+    console.log(res);
+});
+
+timer.on('timeover', function() {
+    sound.stop();
+//    say.speak('end');
+});
+
+timer.setMinute(0.1);
+timer.start();
+sound.start();

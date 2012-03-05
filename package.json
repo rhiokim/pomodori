@@ -1,0 +1,21 @@
+{
+  "author": "Rhio Kim <rhio.kim@gmail.com> (http://about.me/rhio)",
+  "name": "pomodori",
+  "description": "Pomodoro techinque on shell",
+  "version": "0.0.1",
+  "homepage": "http://github.com/rhiokim/pomodori",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rhiokim/pomodori.git"
+  },
+  "main": "index.js",
+  "bin": { "pomodori": "./bin/pomo", "ppo": "./bin/ppo" },
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "dependencies": {
+    "commander": "0.5.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
