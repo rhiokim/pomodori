@@ -1,6 +1,15 @@
 # intro
 pomodori(뽀모도리)는 CLI 에서 Pomodoro Technique 를 수행하기 위한 도구입니다.
 
+# install
+pomodori 는 node.js 를 기반으로 작성되었으며 npm 모듈로 등록되어 있어 node.js 와 npm 이 설치된 환경에서는 아래의 설치 방법으로 손쉽게 설치할 수 있습니다.
+
+```
+$ npm install pomodori -g
+```
+
+# usage
+
 # contributing
 
 # roadmap
